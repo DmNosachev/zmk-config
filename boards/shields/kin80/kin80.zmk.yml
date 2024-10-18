@@ -1,0 +1,8 @@
+file_format: "1"
+id: kin80
+name: kin80
+type: shield
+url: https://github.com/DmNosachev/kin80
+requires: [pro_micro]
+features:
+  - keys
