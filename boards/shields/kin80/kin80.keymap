@@ -22,7 +22,7 @@
 // ,-------------------------------------------.                           ,-------------------------------------------.
 // |  Esc   |  F2  |  F3  |  F4  |  F5  |  F6  |                           |  F7  |  F8  |  F9  |  F10 | PrSc |  RAlt  |
 // |--------+------+------+------+------+------+                           +------+------+------+------+------+--------|
-// | +=/Alt |   1  |   2  |   3  |   4  |   5  |                           |   6  |   7  |   8  |   9  |   0  |   -    |
+// |   +=   |   1  |   2  |   3  |   4  |   5  |                           |   6  |   7  |   8  |   9  |   0  |   -    |
 // |--------+------+------+------+------+------|                           +------+------+------+------+------+--------|
 // |  Tab   |   Q  |   W  |   E  |   R  |   T  |                           |   Y  |   U  |   I  |   O  |   P  | \|     |
 // |--------+------+------+------+------+------|                           |------+------+------+------+------+--------|
@@ -33,7 +33,7 @@
 //          |RAISE |C+Shft|   [  |   ]  |                                         | Left | Down |  Up  | Right|
 //          `---------------------------'                                         `---------------------------'
 //                                        ,-------------.         ,-------------.
-//                                        |LOWER |Enter |         | Gui  | Ctrl |
+//                                        |LOWER | LAlt |         | Gui  | Ctrl |
 //                                 ,------|------|------|         |------+------+------.
 //                                 |      |      | Home |         | PgUp |      |      |
 //                                 |Space |Backsp|------|         |------|  Del | Enter|
@@ -41,12 +41,12 @@
 //                                 `--------------------'         `--------------------'
            bindings = <
             &kp ESC         &kp F2        &kp F3        &kp F4   &kp F5    &kp F6            &kp F7   &kp F8   &kp F9    &kp F10 &kp PSCRN &kp RALT
-            &mt LALT EQUAL  &kp N1        &kp N2        &kp N3   &kp N4    &kp N5            &kp N6   &kp N7   &kp N8    &kp N9  &kp N0    &kp MINUS
+            &kp EQUAL       &kp N1        &kp N2        &kp N3   &kp N4    &kp N5            &kp N6   &kp N7   &kp N8    &kp N9  &kp N0    &kp MINUS
             &kp TAB         &kp Q         &kp W         &kp E    &kp R     &kp T             &kp Y    &kp U    &kp I     &kp O   &kp P     &kp BSLH
             &mt LCTRL GRAVE &kp A         &kp S         &kp D    &kp F     &kp G             &kp H    &kp J    &kp K     &kp L   &kp SEMI  &lt LOWER SQT
             &kp LSHFT       &mt LCTRL Z   &kp X         &kp C    &kp V     &kp B             &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH  &kp RSHFT
                             &mo RAISE     &kp LC(LSHFT) &kp LBKT &kp RBKT                             &kp LEFT &kp DOWN  &kp UP  &kp RIGHT
-                                                                 &mo LOWER &kp ENTER         &kp RGUI &kp RCTRL
+                                                                 &mo LOWER &kp LALT          &kp RGUI &kp RCTRL
                                                                            &kp HOME          &kp PGUP
                                                       &kp SPACE  &kp BSPC  &kp END           &kp PGDN &kp DEL &kp ENTER
             >;
